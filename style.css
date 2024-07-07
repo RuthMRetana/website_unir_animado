@@ -1,0 +1,54 @@
+h1{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serifX;
+    background-color: rgba(137, 43, 226, 0.236);
+    text-align: center;
+}
+p{
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: blueviolet;
+    background-color: aquamarine;
+    border-radius: 5px;
+}
+p:not(:hover) {
+    transition: 0.5s;
+    filter: saturate(0%);
+    -webkit-filter: saturate(0%);
+    pointer-events: all;
+}
+
+
+img{
+    width: 100%;
+    height: auto;
+}
+
+a{
+    display: inline-table;
+    width: 200px;
+}
+object{
+    pointer-events: none;
+}
+
+object:not(:hover) {
+    transition: 0.5s;
+}
+
+img:hover {
+    transition: 0.5s;
+}
+
+.emoti {
+    padding-top: 10px;
+    text-align: center;
+}
+
+.emoti img, .emoti object
+{
+    max-width: 200px;    
+}
+
